@@ -7,7 +7,7 @@
       path="device/oneplus/hotdog"
       name="shipukacapri/android_device_oneplus_hotdog"
       remote="github"
-      revision="axion" />
+      revision="luna-qp2" />
 
  <!-- Common device tree for sm8150 platform (your fork) -->
   <project
