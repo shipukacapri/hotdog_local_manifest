@@ -26,23 +26,23 @@
   <!-- Vendor blobs for hotdog (your fork) -->
   <project
       path="vendor/oneplus/hotdog"
-      name="TheMuppets/proprietary_vendor_oneplus_hotdog"
+      name="QuinceROMs/vendor_oneplus_sm8150-common-1"
       remote="github"
-      revision="lineage-23.2" />
+      revision="16-d-cam" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/oneplus/sm8150-common"
-      name="TheMuppets/proprietary_vendor_oneplus_sm8150-common"
+      name="QuinceROMs/proprietary_vendor_oneplus_sm8150-common"
       remote="github"
-      revision="lineage-23.2" />
+      revision="16-d" />
   
 <!-- OnePlus hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
     path="hardware/oplus"
-    name="LineageOS/android_hardware_oplus"
+    name="QuinceROMs/hardware_oneplus-1"
     remote="github"
-    revision="lineage-23.2" />
+    revision="16-cam" />
 
    <!-- dolby -->
 <project
