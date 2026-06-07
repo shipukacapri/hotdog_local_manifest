@@ -12,16 +12,16 @@
  <!-- Common device tree for sm8150 platform (your fork) -->
   <project
       path="device/oneplus/sm8150-common"
-      name="shipukacapri/device_oneplus_sm8150-common-1"
+      name="LineageOS/android_device_oneplus_sm8150-common"
       remote="github"
-      revision="16-d-cam" />
+      revision="lineage-23.2" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/oneplus/sm8150"
-      name="shipukacapri/android_kernel_oneplus_sm8150"
+      name="LineageOS/android_kernel_oneplus_sm8150"
       remote="github"
-      revision="16-c" />
+      revision="lineage-23.2" />
   
   <!-- Vendor blobs for hotdog (your fork) -->
   <project
@@ -45,10 +45,5 @@
     revision="lineage-23.2" />
 
    <!-- dolby -->
-<project
-    path="hardware/dolby"
-    name="Pong-Development/hardware_dolby"
-    remote="github"
-    revision="16" />
 
 </manifest>
